@@ -1,4 +1,4 @@
-import { AUTH_CHANGE_EMAIL_TEXT, AUTH_CHANGE_PASSWORD_TEXT} from "./ations";
+import { AUTH_CHANGE_EMAIL_TEXT, AUTH_CHANGE_PASSWORD_TEXT} from "./actions";
 
 const defaultState = {
   email: "",

@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import {setEmailText, setPassword} from '../store/auth/ations';
+import {setEmailText, setPassword} from '../store/auth/actions';
 import Auth from './Auth';
 
 

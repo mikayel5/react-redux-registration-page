@@ -1,4 +1,4 @@
-import {REGISTRATION_CHANGE_EMAIL_TEXT,REGISTRATION_CHANGE_PASSWORD_TEXT,REGISTRATION_CHANGE_REPEAT_PASSWORD_TEXT} from './action'
+import {REGISTRATION_CHANGE_EMAIL_TEXT,REGISTRATION_CHANGE_PASSWORD_TEXT,REGISTRATION_CHANGE_REPEAT_PASSWORD_TEXT} from './actions'
 
 const defaultState = {
   email: "",
@@ -7,6 +7,7 @@ const defaultState = {
 };
 
 export const registrationReducer = (state=defaultState, action) => {
+  console.log(state)
   switch (action.type) {
     case REGISTRATION_CHANGE_EMAIL_TEXT:
       return {
